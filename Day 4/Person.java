@@ -1,3 +1,5 @@
+//Day 4 - Class vs Instance Solution. Hackerrank 30-Days-Of-Code Challenege Solutions.
+
 import java.util.Scanner;
 
 public class Person {
