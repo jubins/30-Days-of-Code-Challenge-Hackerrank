@@ -53,11 +53,11 @@ public class Recursion {
     	@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
     	long n = in.nextInt();
-    	//long p = in.nextInt(); //Uncomment this to calculateExponents
+    	//long p = in.nextInt(); //Uncomment this and last output line to calculateExponents
     	
     	//System.out.println(Factorial(n));
     	System.out.println(n+"! = "+Factorial(n));
     	System.out.println("E("+n+") = "+Summation(n));
-    	System.out.println(n+"^"+p+" = "+Exponentiation(n, p));
+    	//System.out.println(n+"^"+p+" = "+Exponentiation(n, p)); Uncomment this to calculateExponents
     }
 }
